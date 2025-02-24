@@ -1,0 +1,89 @@
+<!-- What is Semantic HTML Tag? 
+ Ans : Semantic HTML tags are a set of HTML elements that provide meaning to the
+       structure of web page, making it easier for search engines, screen readers,
+       and other tools to understand the content and layout of the page.
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            background-color: aqua;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+        li{
+            padding: 0 15px;
+        }
+        main{
+            width: 100%;
+            height: calc(100vh - 160px);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            /* justify-content: center; */
+            background-color: aquamarine;
+        }
+        section{
+            width: 80%;
+            height: 100%;
+            background-color: blueviolet;
+        }
+        aside{
+            width: 20%;
+            height: 100%;
+            background-color: bisque;
+        }
+        footer{
+            width: 100%;
+            height: 80px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Semantic HTML Tags -->
+     <header>
+        <h3>Logo</h3>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+     </header>
+     <main>
+        <section>
+            <h1>This is Section</h1>
+        </section>
+        <aside>
+            <h3>Aside</h3>
+        </aside>
+     </main>
+     <footer>
+        Footer
+     </footer>
+</body>
+</html>
