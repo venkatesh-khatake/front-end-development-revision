@@ -42,4 +42,5 @@ age = 45; // re-assignment is allowed
 
 const course = "BBA(CA)"; // must be initialized at the time of declaration;
 
-// course = "BSC(Agri)"; // Re-assignment not allowed
+// course = "BSC(Ag.)"; // Re-assignment not allowed
+
