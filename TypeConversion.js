@@ -46,3 +46,15 @@ console.log(Boolean(0));  // false
 console.log(Boolean("Hello"));  // true (Non-empty string)
 console.log(Boolean(""));  // false (Empty string)
 
+let month = 1;
+
+switch(month){
+    case 1:
+        console.log("January");
+    case 2:
+        console.log("February");
+    case 3:
+        console.log("March");
+    default:
+        console.log("Its default");
+}
