@@ -52,11 +52,11 @@ while (i <= 5) {
 
 // Example : 
 
-let i = 1;
-do {
-    console.log(i);
-    i++;
-} while (i <= 5);
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= 5);
 
 
 
@@ -97,7 +97,7 @@ for (let key in person) {
 // The for...of loop is used to iterate over iterable objects like arrays and strings.
 // Example: Loop through an array using for...of
 
-let fruits = ["Apple", "Banana", "Mango"];
+let fruit = ["Apple", "Banana", "Mango"];
 for (let fruit of fruits) {
     console.log(fruit);
 }
